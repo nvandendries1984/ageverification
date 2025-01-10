@@ -1,0 +1,12 @@
+title: IpController
+modelClass: NielsVanDenDries\AgeVerification\Models\IpModel
+list: $/nielsvandendries/ageverification/models/ipmodel/columns.yaml
+recordUrl: 'nielsvandendries/ageverification/ipcontroller/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

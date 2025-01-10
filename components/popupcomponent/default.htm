@@ -1,0 +1,33 @@
+{% if showPopup %}
+<div id="age-verification-popup" class="modal fade show" tabindex="-1" role="dialog" aria-labelledby="ageVerificationLabel" aria-hidden="true" style="display: block;">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ageVerificationLabel">Age Verification</h5>
+            </div>
+            <div class="modal-body">
+                <p>You must be {{ minimumAge }} years or older to enter this site.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-request="onVerifyAge">I am {{ minimumAge }} or older</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-backdrop fade show"></div>
+{% endif %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var verifyButton = document.querySelector('[data-request="onVerifyAge"]');
+    if (verifyButton) {
+        verifyButton.addEventListener('click', function() {
+            $.request('onVerifyAge', {
+                success: function() {
+                    location.reload();
+                }
+            });
+        });
+    }
+});
+</script>

@@ -1,0 +1,21 @@
+fields:
+    ip:
+        label: Ip
+        span: full
+        disabled: 1
+        readOnly: 1
+        type: text
+    created_at:
+        label: 'Created at'
+        mode: datetime
+        span: auto
+        disabled: 1
+        readOnly: 1
+        type: datepicker
+    updated_at:
+        label: 'Updated at'
+        mode: datetime
+        span: auto
+        disabled: 1
+        readOnly: 1
+        type: datepicker

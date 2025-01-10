@@ -1,0 +1,15 @@
+plugin:
+    name: 'nielsvandendries.ageverification::lang.plugin.name'
+    description: 'nielsvandendries.ageverification::lang.plugin.description'
+    author: 'Niels van den Dries'
+    icon: oc-icon-stop
+    homepage: 'https://stackhost.nl'
+permissions:
+    age_verification_manager:
+        tab: 'nielsvandendries.ageverification::lang.plugin.name'
+        label: 'Age Verification Manager'
+navigation:
+    main-menu-item-avmain:
+        label: 'nielsvandendries.ageverification::lang.plugin.name'
+        url: nielsvandendries/ageverification/ipcontroller
+        icon: icon-adjust

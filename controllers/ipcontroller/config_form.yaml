@@ -1,0 +1,11 @@
+name: IpController
+modelClass: NielsVanDenDries\AgeVerification\Models\IpModel
+form: $/nielsvandendries/ageverification/models/ipmodel/fields.yaml
+defaultRedirect: nielsvandendries/ageverification/ipcontroller
+create:
+    redirect: 'nielsvandendries/ageverification/ipcontroller/update/:id'
+    redirectClose: nielsvandendries/ageverification/ipcontroller
+update:
+    redirect: nielsvandendries/ageverification/ipcontroller
+    redirectClose: nielsvandendries/ageverification/ipcontroller
+preview: {  }

@@ -1,0 +1,16 @@
+{
+    "name": "nielsvandendries/ageverification-plugin",
+    "type": "october-plugin",
+    "description": "A plugin for age verification with IP address storage.",
+    "keywords": ["october", "cms", "plugin", "age verification"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niels van den Dries",
+            "email": "Niels@nvandendries.nl"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

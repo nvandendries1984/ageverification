@@ -1,0 +1,20 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+        searchable: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        searchable: true
+        sortable: true
+    ip:
+        label: ip
+        type: text
+        searchable: true
+        sortable: true

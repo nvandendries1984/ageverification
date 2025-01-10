@@ -1,0 +1,5 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Created table nielsvandendries_ageverification_ip'
+    - builder_table_create_nielsvandendries_ageverification_ip.php
